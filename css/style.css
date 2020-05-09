@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  position: relative;
+  width: 100%;
+}
+.header-content {
+  padding: 10px 5px 10px 5px;
+  font-size: 1em;
+  height: 20px;
+  background-color: #316dc3;
+  position: relative;
+}
+.header-content-ul {
+  margin-left: 30px;
+  float: left;
+}
+.header-content-links {
+  display: inline;
+  text-decoration: none;
+  padding-left: 0.5em;
+}
+.fab {
+  color: white;
+}
+.header-content-text {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  float: left;
+  margin-left: 17%;
+  
+}
+
+.header-content-buttons {
+  float: right;
+  margin-right: 30px;
+  margin-top: -3px;
+}
+
+.header-content-buttons > a {
+  background-color: white;
+  border: none;
+  color: #78be20;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.header-navbar {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(236, 236, 236);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-logo {
+  position: absolute;
+  left: 30px;
+  top: 8px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.navbar-ul {
+  float: right;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+
+.navbar-ul a {
+  border-radius: 200px;
+  color: black;
+  padding: 7px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+}
+.active {
+  background-color: #316dc3;
+  color: white !important;
+  border-radius: 200px;
+  padding: 7px 18px;
+}
+
+.navbar-ul a:hover {
+  background-color: #316dc3;
+  color: white;
+}
+.main {
+ 
+  width: 100%;
+  height: 85vh;
+  background: url("./save_life.PNG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.main-text {
+  background-color: #497fca;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 0px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-h2 {
+  padding-top: 50px;
+  color: #316dc3;
+  text-align: center;
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: normal;
+}
+
+.main-h2-colored {
+  color: #78be20;
+}
+
+.main-para {
+  text-align: justify;
+  color: #666666;
+  margin: 3% 15%;
+  font-size: 14px;
+  line-height: 1.9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin: 32px;
+}
+
+.column h2 {
+  font-size: 50px;
+  font-family: "Bangers", cursive;
+  letter-spacing: 5px;
+  margin: 10px 0;
+}
+.column img {
+  width: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.counter {
+  background-color: #316dc3;
+  color: white;
+  text-align: center;
+}
+
+.services {
+  padding-bottom: 50px;
+  background-color: rgb(236, 236, 236);
+}
+
+.services-h2 h2 {
+  padding: 30px;
+}
+.services-col {
+  padding-top: 30px;
+  background-color: white;
+  width: 30%;
+  margin: 0 20px;
+  text-align: center;
+  height: 150px;
+  box-shadow: 0px 5px 18px #888888;
+}
+
+.services-col h3 {
+  color: #316dc3;
+}
+
+.services-col img {
+  height: 70px;
+  width: 70px;
+}
+
+.services-row {
+  margin-top: 40px;
+}
+
+.col-8 {
+  float: left;
+  width: 70vw;
+  margin-left: 30px;
+}
+
+.col-8 h3 {
+  color: #316dc3;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.col-8 > .dash {
+  width: 50px;
+  height: 2px;
+  background-color: #427900;
+}
+
+.col-4 {
+  float: left;
+  background-color: rgb(236, 236, 236);
+  width: 390px;
+  height: 80px;
+}
+.col-2 {
+  width: 25vw;
+  float: left;
+}
+
+.col-2 h3 {
+  color: #316dc3;
+  font-size: 24px;
+}
+.col-4 h4 {
+  color: #316dc3;
+  margin-top: -24px;
+  margin-left: 70px;
+}
+.col-4 > .tileImage {
+  margin-left: 13px;
+  margin-top: 20px;
+}
+.col-2 p {
+  color: #666666;
+}
+
+.pojects .row {
+  padding-top: 16px;
+}
+.pojects .row .col-4 {
+  border: 1px solid #eeeeee !important;
+}
+
+.pojects .row .ml {
+  margin-left: 30px;
+}
+
+.imageGallery {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 50px 50px;
+}
+.imageGallery h2 {
+  color: #316dc3;
+}
+.imageGallery h2 span {
+  color: #427900 !important;
+  position: relative;
+}
+.imageGallery img {
+  transition: all 1.5s ease;
+  display: inline-block;
+  margin-left: 5px;
+
+
+}
+.imageGallery img:hover{
+  transform: scale(1.2,1.2);
+  overflow: hidden; 
+}
+
+/* .title-icon::before {
+  content: "";
+  height: 2px;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  width: 36px;
+  background-color: #427900;
+} */
+.imageGallery > .dashed {
+  display: block;
+  height: 2px;
+  background-color: #427900;
+  width: 36px;
+}
+.imgGallery {
+  list-style: none;
+  margin-left: 69px;
+  margin-top: 30px;
+  padding-bottom: 200px;
+}
+
+.imgGallery li {
+  float: left;
+  margin-left: 1px;
+}
+.imgGallery li img {
+  width: 226px;
+  height: 150px;
+}
+footer {
+  background-color: rgb(37, 39, 46) !important;
+  padding: 20px 66px 0px 66px;
+  clear: left;
+  height: 50%;
+}
+footer .footerHeading {
+  color: #fff;
+  margin: 0 auto;
+  width: 360px;
+  height: 31px;
+  border-bottom: 1px solid #444;
+  position: relative;
+  top: 50px;
+}
+.footerHeading h5 {
+  font-size: 20px !important;
+}
+.footerHeading h5::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #427900;
+  position: absolute;
+  left: 0;
+  top: 29px;
+}
+footer .address{
+  position: relative;
+  top: 20px;
+}
+.address p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: wheat;
+  padding: 50px 0px;
+}
+.contact ul li{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 2em;
+}
+.contact ul i{
+  margin-right: 10px;
+  color: green;
+}
+.connect{
+  margin-left: 70%;
+  position: relative;
+  bottom: 330px;
+}
+.connect h5{
+  font-size: 20px;
+  color: white;
+}
+.connect li{
+  list-style-type: none;
+  float: left;
+  margin-right: 10px;
+  margin-top: 20px;
+
+}
+.connect i{
+  background-color: rgb(103, 103, 199);
+  border-radius: 50px;
+  padding: 5px;
+  color: white;
+}
+footer .copyright{
+  padding: 0.8em;
+  
+  font-size: 1em;
+  height: 20px;
+  width: 100%;
+  background-color: #316dc3;
+  position: relative;
+  color: white;
+  font-size: 12px;
+  padding-left: 55px;
+  margin: 0px -62px;
+  width: 104%;
+
+  
+}
+.copyright p{
+  position: relative;
+  right:84% auto ;
+}
